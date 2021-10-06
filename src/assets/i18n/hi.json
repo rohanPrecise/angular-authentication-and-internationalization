@@ -1,0 +1,17 @@
+{
+  "LOGIN": {
+    "NORMAL_USER": "सामान्य उपयोगकर्ता",
+    "ADMINISTRATOR": "प्रशासक",
+    "ANGULAR_11_EXAMPLE": "कोणीय 11 भूमिका आधारित प्रामाणिक उदाहरण",
+    "USERNAME": "उपयोगकर्ता नाम",
+    "PASSWORD": "पासवर्ड",
+    "LOGIN": "लॉग इन करें",
+    "USERNAME_REQUIRED": "उपयोगकर्ता नाम आवश्यक है",
+    "PASSWORD_REQUIRED": "पासवर्ड की आवश्यकता है"
+  },
+  "HEADER_MENU": {
+    "HOME": "घर",
+    "ADMIN": "व्यवस्थापक",
+    "LOGOUT": "लॉग आउट"
+  }
+}

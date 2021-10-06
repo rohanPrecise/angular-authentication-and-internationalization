@@ -1,0 +1,22 @@
+<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="user">
+  <div class="navbar-nav">
+    <a class="nav-item nav-link" routerLink="/home" [routerLinkActive]="'active'">{{'HEADER_MENU.HOME' | translate}}</a>
+    <a class="nav-item nav-link" routerLink="/admin" [routerLinkActive]="'active'"
+      *ngIf="isAdmin">{{'HEADER_MENU.ADMIN' | translate}}</a>
+    <a class="nav-item nav-link" (click)="logout()" style="cursor: pointer;">{{'HEADER_MENU.LOGOUT' | translate}}</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="col-md-1 offset-md-10 mt-2">
+    <span class="form-inline">
+      <select class="form-control" #selectedLang (change)="switchLang(selectedLang.value)">
+        <option *ngFor="let language of translate.getLangs()" [value]="language"
+          [selected]="language === translate.currentLang">
+          {{ language }}
+        </option>
+      </select>
+    </span>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+{
+  "LOGIN": {
+    "NORMAL_USER": "Normal User",
+    "ADMINISTRATOR": "Administrator",
+    "ANGULAR_11_EXAMPLE": "Angular 11 Role Based Auth Example",
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "LOGIN": "Login",
+    "USERNAME_REQUIRED": "Username is required",
+    "PASSWORD_REQUIRED": "Password is required"
+  },
+  "HEADER_MENU": {
+    "HOME": "Home",
+    "ADMIN": "Admin",
+    "LOGOUT": "Logout"
+  }
+}

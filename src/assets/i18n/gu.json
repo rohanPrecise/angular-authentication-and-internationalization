@@ -1,0 +1,17 @@
+{
+  "LOGIN": {
+    "NORMAL_USER": "સામાન્ય વપરાશકર્તા",
+    "ADMINISTRATOR": "સંચાલક",
+    "ANGULAR_11_EXAMPLE": "કોણીય 11 ભૂમિકા આધારિત સત્ય ઉદાહરણ",
+    "USERNAME": "વપરાશકર્તાનામ",
+    "PASSWORD": "પાસવર્ડ",
+    "LOGIN": "પ્રવેશ કરો",
+    "USERNAME_REQUIRED": "વપરાશકર્તાનામ જરૂરી છે",
+    "PASSWORD_REQUIRED": "પાસવર્ડ અનિવાર્ય છે"
+  },
+  "HEADER_MENU": {
+    "HOME": "ઘર",
+    "ADMIN": "સંચાલક",
+    "LOGOUT": "લૉગ આઉટ"
+  }
+}
